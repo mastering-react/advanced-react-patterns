@@ -7,7 +7,6 @@ function App() {
 
       <div className="mt-4">
         <Toggle>
-          {/* Enabled */}
           {(checked) => {
             return checked ? "Enabled" : "Disabled";
           }}
